@@ -104,7 +104,7 @@ div img {
 
 img:hover {
     width: 300px;
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 img {
