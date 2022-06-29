@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+:root {
+    --cor0: #CAD3D8;
+    --cor1: #5B00C9;
+    --cor2: #1E0042;
+    --cor3: #36454C;
+    --cor4: #000000;
+
+    --fonte-paragrafo: 'Monoton', cursive;
+}
+
+body {
+    background-color: #36454C;
+    background-image: url('imagensgame/background-gta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding: 10px;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor0);
+    margin: auto;
+}
+
+header > p {
+    color: var(--cor0);
+    font-size: small;
+    text-align: left;
+}
+
+#game {
+    width: 70px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+aside {
+    margin: -68px 0px 54px 1px;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 5px;
+}
+
+nav > a {
+    color: var(--cor0);
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor1);
+    transition: 0.25s;
+}
+
+main {
+    background-color: var(--cor0);
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.39);
+}
+
+
+main h2 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-family: var(--fonte-paragrafo);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.466);
+}
+
+div {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+div img {
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.418);
+}
+
+img:hover {
+    width: 300px;
+    border: 1px dotted black;
+}
+
+img {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor2);
+    color: var(--cor0);
+    padding: 7px;
+    max-width: 1188px;
+    min-width: 300px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.video {
+    height: 30vh;
+    width: 56vh;
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    
+}
+
+.video > iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 95%;
+    height: 95%;
+    transform: translate(-50%, -50%);
+}
+
+    
