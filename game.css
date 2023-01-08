@@ -44,8 +44,9 @@ header h1 {
 
 header > p {
     color: var(--cor0);
-    font-size: small;
-    text-align: left;
+    font-size: larger;
+    text-align: center;
+    margin-top: -50px;
 }
 
 #game {
@@ -187,23 +188,6 @@ footer {
     border-bottom-right-radius: 10px;
 }
 
-.video {
-    height: 30vh;
-    width: 56vh;
-    background-color: var(--cor3);
-    padding: 10px;
-    margin: 0px -20px 30px -20px;
-    position: relative;
-    
-}
 
-.video > iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 95%;
-    height: 95%;
-    transform: translate(-50%, -50%);
-}
 
     
